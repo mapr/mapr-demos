@@ -51,7 +51,7 @@ Also the flume conf file is deliberately set up to create larger (a little less 
 The script move_files.sh uses the MapR NFS loopback to move completed flume files to the processing directory, this is just a move operation that is very low overhead.
 
 Go the <MapR-FS root>/twitter/tmp and copy the script to that location.
-(wget --no-check-certificate https://github.com/abengelbrecht/drill-twitter/raw/master/flume/move_files.sh)
+(wget --no-check-certificate https://github.com/mapr/mapr-demos/tree/master/drill-twitter-MSTR/flume /move_files.sh)
 Make sure the file is executable and owned by the same user as the one for flume, default is mapr on the node.
 
 Edit cron to run the file every 5 minutes (or shorter if preferred).
