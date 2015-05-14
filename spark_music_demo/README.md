@@ -8,9 +8,9 @@ To run the demo, perform the following steps:
     - Happybase is installed
 
 1) Create the MapR-DB tables required for storing the data.  You will need three tables:
-    - cust_data
-    - agg_data
-    - live_data
+    - cust_table
+    - agg_table
+    - live_table
 
 2) In each of the above tables, create a single column family named cdata, adata and ldata, respectively.
 
