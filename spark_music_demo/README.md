@@ -3,14 +3,9 @@ This repo contains the PySpark code and data sets required to run an example Spa
 
 To run the demo, perform the following steps:
 
-0) Ensure that prerequisites are satisified on all MapR nodes:
-    - Spark and PySpark are installed
-    - Happybase is installed
+0) Ensure that prerequisites are satisified on all MapR nodes.  Ensure that Spark and PySpark are installled as well as the HappyBase Python package.
 
-1) Create the MapR-DB tables required for storing the data.  You will need three tables:
-    - cust_table
-    - agg_table
-    - live_table
+1) Create the MapR-DB tables required for storing the data.  You will need three tables:  cust_table, agg_table, live_table.
 
 2) In each of the above tables, create a single column family named cdata, adata and ldata, respectively.
 
