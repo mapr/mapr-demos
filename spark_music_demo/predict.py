@@ -8,7 +8,7 @@ from pyspark.mllib.classification import LogisticRegressionWithSGD
 conf = SparkConf().setAppName('AdPredictor')
 sc = SparkContext(conf=conf)
 
-data = MLUtils.loadLibSVMFile(sc, 'd2/features2.txt')
+data = MLUtils.loadLibSVMFile(sc, 'features.txt')
 
 # split the data into training, and test 
 train, test = data.randomSplit([0.7, 0.3], seed = 0)
