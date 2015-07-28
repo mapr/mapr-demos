@@ -1,5 +1,10 @@
 # spark_music_demo
-This repo contains the PySpark code and data sets required to run an example Spark computation on the MapR platform, using MapR-FS, MapR-DB and Drill.  The full end-to-end flow and use case of this demo is documented in a series of blog posts.
+This repo contains the PySpark code and data sets required to run an example Spark computation on the MapR platform, using MapR-FS, MapR-DB and Drill.
+
+The full end-to-end flow and use case of this demo is documented in a series of blog posts and video:
+- Blog Post #1:  https://www.mapr.com/blog/real-time-user-profiles-spark-drill-and-mapr-db
+- Blog Post #2:  https://www.mapr.com/blog/classifying-customers-mllib-and-spark
+- Video on YouTube:  https://www.youtube.com/watch?v=wIWp8lnj7UE
 
 To run the demo, perform the following steps:
 
