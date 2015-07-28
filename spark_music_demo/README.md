@@ -32,3 +32,14 @@ Now run the binary classification code script, again from the master node:
 ```
 
 You should see a few lines of output summarizing the results, including error for SGD and LBFGS and the size of the train and test data sets.
+
+## Viewing the data in Tableau
+
+The files cust_view.sql and live_view.sql contain the SQL queries necessary to make the views in Drill Explorer.  The Tableau workbook included in this repo references these views.  To create the views, simply go to the 'SQL' tab in Drill Explorer and enter the query, then selecting 'Save'.  This will save the views in the Hadoop filesystem (or MapR-FS) and they can be pulled into Tableau later.
+
+
+
+
+
+
+
