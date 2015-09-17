@@ -1,5 +1,5 @@
 # spark_music_demo
-This repo contains the PySpark code and data sets required to run an example Spark computation on the MapR platform, using MapR-FS, MapR-DB and Drill.
+This repo contains the PySpark code and data sets required to run an example Spark computation on the MapR platform, using MapR-FS, MapR-DB and Drill.  
 
 The full end-to-end flow and use case of this demo is documented in a series of blog posts and video:
 - Blog Post #1:  https://www.mapr.com/blog/real-time-user-profiles-spark-drill-and-mapr-db
@@ -8,7 +8,7 @@ The full end-to-end flow and use case of this demo is documented in a series of 
 
 To run the demo, perform the following steps:
 
-0) Check that prerequisites are satisified on all MapR nodes.  Specifically, ensure that Spark and PySpark are installled as well as the HappyBase Python package.
+0) Check that prerequisites are satisified on all MapR nodes.  Specifically, ensure that Spark and PySpark are installled as well as the HappyBase Python package.  Also be sure to install the mapr-hbasethrift package on at least one node, this is the node you should use in the scripts (i.e. for connecting with happybase).
 
 1) Create the MapR-DB tables required for storing the data.  You will need three tables:  cust_table, agg_table, live_table.
 
